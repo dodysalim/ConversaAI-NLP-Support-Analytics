@@ -1,5 +1,9 @@
 # ConversaAI — Sistema de Análisis de Conversaciones de Soporte
 
+> 👥 **Proyecto en equipo — No Country (simulación laboral S04-26, Equipo 40, Data Science).**
+> Integrantes: Rosa Isela González Díaz · Jefferson Mangier · Dody Dueñas Remache.
+> Repositorio original: [No-Country-simulation/S04-26-Equipo-40-Data-Science](https://github.com/No-Country-simulation/S04-26-Equipo-40-Data-Science) · Copia con el historial completo de commits.
+
 Pipeline de NLP para clasificar sentimiento (3 clases), intención (9 clases) y riesgo de churn en conversaciones de soporte al cliente en español y portugués.
 
 ## Enlaces
