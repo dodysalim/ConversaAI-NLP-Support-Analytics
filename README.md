@@ -1,7 +1,7 @@
 # ConversaAI — Sistema de Análisis de Conversaciones de Soporte
 
 > 👥 **Proyecto en equipo — No Country (simulación laboral S04-26, Equipo 40, Data Science).**
-> Integrantes: Rosa Isela González Díaz · Jefferson Mangier · Dody Dueñas Remache.
+> Integrantes: Rosa Isela González Díaz · Jefferson Mangier · Dody Dueñas Remache · Geyson David.
 > Repositorio original: [No-Country-simulation/S04-26-Equipo-40-Data-Science](https://github.com/No-Country-simulation/S04-26-Equipo-40-Data-Science) · Copia con el historial completo de commits.
 
 Pipeline de NLP para clasificar sentimiento (3 clases), intención (9 clases) y riesgo de churn en conversaciones de soporte al cliente en español y portugués.
@@ -10,12 +10,25 @@ Pipeline de NLP para clasificar sentimiento (3 clases), intención (9 clases) y 
 
 | Recurso | URL |
 |---------|-----|
+| Showcase oficial · Abril 2026 | [No Country Showcase](https://nocountry.tech/showcase/simulacion-laboral-abril-2026/equipo-40-data-science) |
 | Repositorio GitHub | [No-Country-simulation/S04-26-Equipo-40-Data-Science](https://github.com/No-Country-simulation/S04-26-Equipo-40-Data-Science) |
 | Modelo Sentimiento (HF Hub) | [Rosela/xlm-r-sentiment-espt](https://huggingface.co/Rosela/xlm-r-sentiment-espt) |
 | Modelo Intención (HF Hub) | [Rosela/xlm-r-intent-espt](https://huggingface.co/Rosela/xlm-r-intent-espt) |
 | Perfil HF Hub | [huggingface.co/Rosela](https://huggingface.co/Rosela) |
 | Dashboard Streamlit (HF Space) | [rosela-conversaai-dashboard.hf.space](https://rosela-conversaai-dashboard.hf.space) |
 | Dashboard Web (Vercel) | [s04-26-equipo-40-data-science.vercel.app](https://s04-26-equipo-40-data-science.vercel.app) |
+
+
+### Equipo · Abril 2026
+
+| Integrante | Rol publicado |
+| --- | --- |
+| Jefferson Mangier | Data Scientist |
+| Rosa Isela González Díaz | Data Scientist |
+| Dody Dueñas Remache | Data Scientist |
+| Geyson David | Data analyst |
+
+Créditos basados en el [showcase oficial](https://nocountry.tech/showcase/simulacion-laboral-abril-2026/equipo-40-data-science) y en los nombres completos documentados en este repositorio. Se conserva la autoría colectiva.
 
 ## Arquitectura
 
