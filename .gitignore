@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos y datos grandes
+checkpoints/
+*.pth
+*.bin
+
+# Entornos virtuales
+venv_conversaai/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.log
+
+# ── Proyecto ConversaAI ──
+
+# Models locales (pesados ~2.2GB, descargar de Drive)
+/models/
+proyecto/src/models/sentiment/
+proyecto/src/models/intent/
+
+# Datos raw y outputs
+proyecto/data/raw/
+proyecto/outputs/
+
+# Scripts archivados
+proyecto/scripts/archive/
