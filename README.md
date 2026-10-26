@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/dodysalim/ConversaAI-NLP-Support-Analytics/actions"><img src="https://github.com/dodysalim/ConversaAI-NLP-Support-Analytics/actions/workflows/tests.yml/badge.svg" alt="CI"></a> <img src="https://img.shields.io/badge/versión-1.1.0-8F7BFF?style=flat-square" alt="Versión 1.1.0">
+<a href="https://github.com/dodysalim/ConversaAI-NLP-Support-Analytics/actions"><img src="https://github.com/dodysalim/ConversaAI-NLP-Support-Analytics/actions/workflows/tests.yml/badge.svg" alt="CI"></a> <img src="https://img.shields.io/badge/versión-2.0.0-8F7BFF?style=flat-square" alt="Versión 2.0.0">
 </p>
 
 <p align="center"><a href="https://nocountry.tech/showcase/simulacion-laboral-abril-2026/equipo-40-data-science"><b>🏆 Showcase No Country</b></a> · <a href="https://rosela-conversaai-dashboard.hf.space"><b>🚀 Demo en vivo</b></a> · <a href="https://s04-26-equipo-40-data-science.vercel.app"><b>🌐 Dashboard web</b></a> · <a href="https://dodysalim.github.io/"><b>💼 Portafolio</b></a></p>
@@ -185,12 +185,21 @@ El dashboard Streamlit está deployado en HuggingFace Spaces:
 Dashboard web estático (HTML/CSS/JS) deployado en Vercel:
 👉 [s04-26-equipo-40-data-science.vercel.app](https://s04-26-equipo-40-data-science.vercel.app)
 
-## 🧪 Pruebas
-
-Las pruebas offline validan el score de churn y el pipeline de reglas sobre el corpus demo, sin descargar modelos:
+## 💻 Dashboard local (sin GPU)
 
 ```bash
-python -m pip install pytest
+python -m pip install -r requirements-dashboard.txt
+streamlit run dashboard-streamlit/dashboard_app.py
+```
+
+Por defecto usa el motor de reglas offline; desde la barra lateral se puede cambiar a los modelos XLM-R (requiere `requirements.txt`). El código está en `proyecto/dashboard/`, organizado en motores intercambiables, lógica de análisis pura, gráficos y vistas.
+
+## 🧪 Pruebas
+
+Las pruebas offline validan el score de churn, el pipeline de reglas y la lógica del dashboard sobre el corpus demo, sin descargar modelos:
+
+```bash
+python -m pip install pytest pandas
 python -m pytest proyecto/tests -q
 ```
 
