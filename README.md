@@ -58,6 +58,17 @@ Créditos basados en el [showcase oficial](https://nocountry.tech/showcase/simul
 
 ## 🏗️ Arquitectura
 
+```mermaid
+flowchart LR
+    MSG[Mensaje ES/PT] --> ENG{{"AnalysisEngine<br/>(Strategy)"}}
+    ENG -->|XLM-R| TE["TransformerEngine<br/>sentimiento 3 clases · intención 9 clases"]
+    ENG -->|offline| RB["RuleBasedEngine<br/>palabras clave + regex"]
+    TE & RB --> CH["ChurnScorer<br/>sentimiento + frustración + intención"]
+    CH --> AN["dashboard/analysis<br/>métricas · alertas (puro)"] --> VW["views<br/>Dashboard · Explorar · Acciones"] --> ST([Streamlit])
+```
+
+<details><summary>Detalle del scoring</summary>
+
 ```
 Mensaje
   ├──► SentimentClassifier (XLM-R fine-tuneado)
@@ -77,6 +88,8 @@ Si los modelos fine-tuneados no están disponibles (sin GPU/local), el pipeline 
 - **Sentimiento**: `nlptown/bert-base-multilingual-uncased-sentiment` (5 estrellas → 3 clases)
 - **Intención**: `MoritzLaurer/DeBERTa-v3-base-mnli` (zero-shot sobre las 9 clases)
 - **Demo 100% offline**: `proyecto/scripts/pipeline_fallback.py` — rule-based por keywords + regex (sin dependencias ML)
+
+</details>
 
 ## 🛠️ Stack
 
