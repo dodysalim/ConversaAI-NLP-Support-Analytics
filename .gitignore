@@ -49,3 +49,7 @@ proyecto/outputs/
 
 # Scripts archivados
 proyecto/scripts/archive/
+
+# Mantenimiento
+.env
+.pytest_cache/

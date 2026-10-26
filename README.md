@@ -12,6 +12,10 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Transformers"> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"> <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly"> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 </p>
 
+<p align="center">
+<a href="https://github.com/dodysalim/ConversaAI-NLP-Support-Analytics/actions"><img src="https://github.com/dodysalim/ConversaAI-NLP-Support-Analytics/actions/workflows/tests.yml/badge.svg" alt="CI"></a> <img src="https://img.shields.io/badge/versión-1.1.0-8F7BFF?style=flat-square" alt="Versión 1.1.0">
+</p>
+
 <p align="center"><a href="https://nocountry.tech/showcase/simulacion-laboral-abril-2026/equipo-40-data-science"><b>🏆 Showcase No Country</b></a> · <a href="https://rosela-conversaai-dashboard.hf.space"><b>🚀 Demo en vivo</b></a> · <a href="https://s04-26-equipo-40-data-science.vercel.app"><b>🌐 Dashboard web</b></a> · <a href="https://dodysalim.github.io/"><b>💼 Portafolio</b></a></p>
 
 ---
@@ -180,6 +184,15 @@ El dashboard Streamlit está deployado en HuggingFace Spaces:
 
 Dashboard web estático (HTML/CSS/JS) deployado en Vercel:
 👉 [s04-26-equipo-40-data-science.vercel.app](https://s04-26-equipo-40-data-science.vercel.app)
+
+## 🧪 Pruebas
+
+Las pruebas offline validan el score de churn y el pipeline de reglas sobre el corpus demo, sin descargar modelos:
+
+```bash
+python -m pip install pytest
+python -m pytest proyecto/tests -q
+```
 
 ## 🐳 Docker
 
