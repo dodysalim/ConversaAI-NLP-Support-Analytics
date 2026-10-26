@@ -11,4 +11,3 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y [
 - Flujo de CI que corre las pruebas en cada cambio.
 - README con insignias de CI y versión, y sección de pruebas.
 - `.gitignore` ampliado.
-
