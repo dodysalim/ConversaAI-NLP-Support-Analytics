@@ -207,6 +207,12 @@ streamlit run dashboard-streamlit/dashboard_app.py
 
 Por defecto usa el motor de reglas offline; desde la barra lateral se puede cambiar a los modelos XLM-R (requiere `requirements.txt`). El código está en `proyecto/dashboard/`, organizado en motores intercambiables, lógica de análisis pura, gráficos y vistas.
 
+## ☁️ Publicar el dashboard gratis
+
+[![Deploy en Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=dodysalim/ConversaAI-NLP-Support-Analytics&branch=main&mainModule=dashboard-streamlit/dashboard_app.py)
+
+Un clic abre Streamlit Community Cloud con este repositorio y `dashboard-streamlit/dashboard_app.py` preconfigurados (dependencias: `requirements-dashboard.txt`). Funciona sin credenciales: motor de reglas offline.
+
 ## 🧪 Pruebas
 
 Las pruebas offline validan el score de churn, el pipeline de reglas y la lógica del dashboard sobre el corpus demo, sin descargar modelos:

@@ -1,0 +1,5 @@
+# Dashboard de insights con el motor de reglas offline (sin GPU ni descargas)
+streamlit>=1.32
+pandas>=2.0
+plotly>=5.18
+# Para el motor XLM-R, instalar además requirements.txt (transformers y torch)
