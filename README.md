@@ -16,7 +16,7 @@
 <a href="https://github.com/dodysalim/ConversaAI-NLP-Support-Analytics/actions"><img src="https://github.com/dodysalim/ConversaAI-NLP-Support-Analytics/actions/workflows/tests.yml/badge.svg" alt="CI"></a> <img src="https://img.shields.io/badge/versión-2.0.0-8F7BFF?style=flat-square" alt="Versión 2.0.0">
 </p>
 
-<p align="center"><a href="https://nocountry.tech/showcase/simulacion-laboral-abril-2026/equipo-40-data-science"><b>🏆 Showcase No Country</b></a> · <a href="https://rosela-conversaai-dashboard.hf.space"><b>🚀 Demo en vivo</b></a> · <a href="https://s04-26-equipo-40-data-science.vercel.app"><b>🌐 Dashboard web</b></a> · <a href="https://dodysalim.github.io/"><b>💼 Portafolio</b></a></p>
+<p align="center"><a href="https://nocountry.tech/showcase/simulacion-laboral-abril-2026/equipo-40-data-science"><b>🏆 Showcase No Country</b></a> · <a href="https://rosela-conversaai-dashboard.hf.space"><b>🚀 Demo en vivo</b></a> · <a href="https://s04-26-equipo-40-data-science.vercel.app"><b>🌐 Dashboard web</b></a> · <a href="https://dodysalim.github.io/"><b>💼 Portafolio</b></a> · <a href="README.en.md"><b>🇺🇸 English</b></a></p>
 
 ---
 
